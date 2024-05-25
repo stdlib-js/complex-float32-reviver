@@ -152,7 +152,7 @@ bool = ( w.im === z.im );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/complex-float32`][@stdlib/complex/float32]</span><span class="delimiter">: </span><span class="description">64-bit complex number.</span>
--   <span class="package-name">[`@stdlib/complex-reviver-float64`][@stdlib/complex/reviver-float64]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 128-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/complex-float64/reviver`][@stdlib/complex/float64/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 128-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-reviver`][@stdlib/complex/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized complex number.</span>
 
 </section>
@@ -235,7 +235,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/complex/reviver-float64]: https://github.com/stdlib-js/complex-reviver-float64
+[@stdlib/complex/float64/reviver]: https://github.com/stdlib-js/complex-float64-reviver
 
 [@stdlib/complex/reviver]: https://github.com/stdlib-js/complex-reviver
 
