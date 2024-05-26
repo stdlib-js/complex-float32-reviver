@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Revive a JSON-serialized 64-bit [complex number][@stdlib/complex/float32].
+> Revive a JSON-serialized 64-bit [complex number][@stdlib/complex/float32/ctor].
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -75,7 +75,7 @@ var reviveComplex64 = require( '@stdlib/complex-float32-reviver' );
 
 #### reviveComplex64( key, value )
 
-Revives a JSON-serialized 64-bit [complex number][@stdlib/complex/float32].
+Revives a JSON-serialized 64-bit [complex number][@stdlib/complex/float32/ctor].
 
 ```javascript
 var parseJSON = require( '@stdlib/utils-parse-json' );
@@ -86,7 +86,7 @@ var z = parseJSON( str, reviveComplex64 );
 // returns <Complex64>
 ```
 
-For details on the JSON serialization format, see [`Complex64`][@stdlib/complex/float32].
+For details on the JSON serialization format, see [`Complex64`][@stdlib/complex/float32/ctor].
 
 </section>
 
@@ -151,7 +151,7 @@ bool = ( w.im === z.im );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/complex-float32`][@stdlib/complex/float32]</span><span class="delimiter">: </span><span class="description">64-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/complex-float32/ctor`][@stdlib/complex/float32/ctor]</span><span class="delimiter">: </span><span class="description">64-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-float64/reviver`][@stdlib/complex/float64/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 128-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-reviver`][@stdlib/complex/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized complex number.</span>
 
@@ -231,7 +231,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-float32-reviver/main/LICENSE
 
-[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
+[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32-ctor
 
 <!-- <related-links> -->
 
