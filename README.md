@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@deno/mod.js';
+import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@v0.0.2-deno/mod.js';
 ```
 
 #### reviveComplex64( key, value )
@@ -93,7 +93,7 @@ For details on the JSON serialization format, see [`Complex64`][@stdlib/complex/
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
 import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
-import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@deno/mod.js';
+import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@v0.0.2-deno/mod.js';
 
 var z = new Complex64( 5.0, 3.0 );
 var str = JSON.stringify( z );
