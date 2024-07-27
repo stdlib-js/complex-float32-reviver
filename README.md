@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float32-reviver/tags). For example,
+
+```javascript
 import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@v0.0.2-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ For details on the JSON serialization format, see [`Complex64`][@stdlib/complex/
 
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
 import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@esm/index.mjs';
-import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@v0.0.2-esm/index.mjs';
+import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@esm/index.mjs';
 
 var z = new Complex64( 5.0, 3.0 );
 var str = JSON.stringify( z );
