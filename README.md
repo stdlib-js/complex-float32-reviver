@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float32-reviver/tags). For example,
+
+```javascript
 import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@v0.0.2-deno/mod.js';
 ```
 
@@ -93,7 +98,7 @@ For details on the JSON serialization format, see [`Complex64`][@stdlib/complex/
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
 import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
-import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@v0.0.2-deno/mod.js';
+import reviveComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reviver@deno/mod.js';
 
 var z = new Complex64( 5.0, 3.0 );
 var str = JSON.stringify( z );
